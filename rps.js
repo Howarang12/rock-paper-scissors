@@ -41,7 +41,6 @@ function endGame(){
     }
     if (computerScore == 5){
         end.textContent = "You lose with a score of "+ playerScore + " to " + computerScore;
-    }
     else{
         return;
     }
